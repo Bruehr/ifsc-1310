@@ -83,6 +83,7 @@ header.primary nav ul li{
 
 header.primary nav a{
   color:#ffffff;
+  font-size:.8rem;
   text-decoration:none;
   background-color:#000000;
   background-color: rgba(0,0,0,.4);
@@ -113,6 +114,8 @@ header.primary nav a:active
   flex-direction:row;
   justify-content:space-between;
   gap:20px;
+  border-bottom: 1px dotted #c0c0c0;
+  padding-bottom:2.6rem;
 }
 
 #content article.post{
@@ -120,6 +123,8 @@ header.primary nav a:active
   padding:10px;
   font-size:.8rem;
   transition:.5s;
+
+  
 }
 
 #content article.post:hover{
@@ -130,19 +135,74 @@ article.post figure{
   margin:0;
 }
 
+time.post-date, figcaption, .post-meta{
+  text-transform:uppercase;
+  color:#c0c0c0;
+  font-size:.7rem;
+}
 
+article.post img{
+  border:solid 1px #c0c0c0;
+  padding:2.5px;
+  border-radius:5px;
+}
 
+article.post a{
+ color: #3b638b;
+ transition:.5s;
+}
 
+article.post a:hover{
+ text-decoration:none;
+}
 
+/* Attribute Selector Example
+a[target="_blank"]{
+  color:red;
+}
+*/
 
+aside[role="complementary"]{
+  background-color: #172635;
+  color:#fff;
+  padding:40px;
+}
 
+aside .container{
+  display:flex;
+  flex-direction:row;
+  gap:40px;
+}
 
+aside .container p{
+  line-height:1.2;
+}
 
+aside .container a:last-of-type{
+  color:#ffffff;
+  display:block;
+  text-align:right;
+  margin-top:20px;
+}
 
+aside .container a{
+  color:#ffffff;
+}
 
+aside .container .widget footer{
+  display:none;
+}
 
+#colophon{
+  background:#3b638b;
+}
 
-
+#colophon h6{
+  padding:20px;
+  margin:0;
+  text-align:center;
+  color:#fff;
+}
 
 
 
@@ -173,8 +233,18 @@ article.post figure{
   }
   header.primary nav ul a{
     display:block;
+  }  
+  #content {
+    flex-direction:column;
+  }  
+  #content img{
+    display:block;
+    margin:20px auto;
+    
   }
-
+  aside .container{
+    flex-direction:column;
+  }
 }
 
 
