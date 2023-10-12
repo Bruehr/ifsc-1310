@@ -17,11 +17,43 @@ img{
   max-width:100%;
 }
 
+/*  --------------- Background Images -----------------  */
+
+body{
+    background-image: url ("../assets/img.cubs.jpg");
+  background-repeat:no-repeat;
+  background-size:contain;
+}
+
 /*  --------------- Utility Styles -----------------  */
 
 .container{
   width:80vw;
   margin:40px auto;
+}
+
+.img-right{
+  float:right;
+  margin: 10px 0 10px 20px;
+  border:4px double #c0c0c0;
+  padding:5px;
+  box-shadow: 4px 4px 2px rgba(0,0,0,.4);
+}
+
+.img-left{
+  float:left;
+  margin: 10px 20px 10px 0;
+  border:4px double #c0c0c0;
+  padding:5px;
+  box-shadow: 4px 4px 2px rgba(0,0,0,.4);
+}
+
+.img-center{
+  border:4px double #c0c0c0;
+  padding:5px;
+  box-shadow: 4px 4px 2px rgba(0,0,0,.4);
+  display:block;
+  margin:20px auto;
 }
 
 
@@ -34,7 +66,7 @@ body{
 }
 
 header.primary{
- background-color:#3b638b;
+ background-color: #3b638b;
  color:#ffffff;
  text-align:center;
  padding:40px;
@@ -156,6 +188,110 @@ article.post a:hover{
  text-decoration:none;
 }
 
+#practice{
+  line-height:1.8;
+}
+
+#practice h2{
+  border:4px double #c0c0c0;
+  padding:5px;
+  box-shadow: 4px 4px 2px rgba(0,0,0,.4);
+border-bottom: 1px dotted #c0c0c0;
+}
+
+#practice a{
+  color: #3b638b;
+}
+
+#practice a:hover{
+  text-decoration:none;
+}
+
+#practice h3{
+  border-left:7.5px solid #3b638b;
+  padding-left:10px;
+}
+
+#practice blockquote{
+  border:4px double #c0c0c0;
+  padding:20px 40px;
+  margin:40px 80px;
+  border-radius:30px 0; 
+  background-color:#3b638b;
+  color:#ffffff;
+  line-height:1.4;
+  text-shadow:1px 1px #000;
+}
+
+#practice cite{
+  display:block;
+  text-align:right;
+  font-size:.7rem;
+  margin-top:10px;
+
+}
+
+table{
+  width:100%;
+  border:1px solid #c0c0c0;
+  margin:20px 0;
+  border-collapse:collapse;
+}
+
+table caption{
+  font-weight:bold;
+  margin:10px;
+}
+table tr:nth-child(even){
+   background-color:rgba(0,0,0,.1);
+}
+
+table tr:hover{
+  background-color:rgba(0,0,0,.2);
+}
+
+table th{
+  background-color:#172635;
+  color:#ffffff;
+  padding:10px;
+}
+table td{
+  border:1px solid #c0c0c0;
+  padding:5px;
+}
+
+td:nth-child(n+2){
+  text-align:right;
+}
+
+ol{
+  list-style-type:lower-roman;
+}
+
+li{
+
+}
+
+ul li > ul {
+  list-style-type:square;
+  color:red;
+}
+
+dl{}
+dt{
+  font-weight:bold;
+}
+
+dd{margin:0;}
+
+/* Adjacent Sibling Combinator*/
+dd + dt{
+  margin-top:20px;
+}
+
+
+
+
 /* Attribute Selector Example
 a[target="_blank"]{
   color:red;
@@ -221,6 +357,28 @@ aside .container .widget footer{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*  ---------------Media Queries-----------------  */
 
 @media screen and (max-width:600px){
@@ -233,7 +391,7 @@ aside .container .widget footer{
   }
   header.primary nav ul a{
     display:block;
-  }  
+  }
   #content {
     flex-direction:column;
   }  
