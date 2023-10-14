@@ -69,7 +69,7 @@ body{
   }
 
   header.primary nav a{
-    color:#D93644;
+    color:#29A5F2;
     text-decoration: none;    
     background-color: rgba(0,0,0,.4);
     padding: 8px 12px;
@@ -98,6 +98,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     gap:20px;
+   
   }
 
   #content article.post{
@@ -110,8 +111,63 @@ body{
     margin:0;
   }
 
+  time.post-date, figcaption, .post.meta{
+    text-transform: uppercase;
+    color:#D93644;
+    font-size: .9rem;
+  }
 
+  article.post img{
+    border:solid 2px #29A5F2;
+    padding:4px;
+    border-radius: 10px;
+  }
 
+  article.post a{
+    color:#29A5F2;
+    
+  }
+
+  article.post a:hover{
+    text-decoration: none;
+  }
+
+  aside[role="complementary"]{
+    background-color:#031D74;
+    color:#D93644;
+    padding:20px;
+  }
+
+  aside .container{
+    display:flex;
+    flex-direction: row;
+    gap: 50px; 
+  }
+
+  aside .container p{
+    line-height: 1.8;
+  }
+
+  aside .container a:last-of-type {
+    color:#29A5F2;
+    display:block;
+    text-align:right;
+  }
+
+  aside .container footer{
+    display:none;
+  }
+
+  #colophon{
+    background-color: #29A5F2;
+    color::#031D74;    
+  }
+
+  #colophon h6{
+    padding:20px;
+    margin:0;
+    text-align: center;
+  }
 
   
   
@@ -131,6 +187,20 @@ body{
     display:block;
     
   }  
+
+  #content{
+    flex-direction: column;
+  }
+
+  #content{
+    display: block;
+    margin: 20px auto;
+  }
+
+  aside .container{
+    flex-direction: column;
+    
+  }
 }
 
 
