@@ -15,6 +15,20 @@ html {
   width:80vw;
   margin: 40px auto;
 }
+
+.img-right{
+  float:right;
+  margin: 10px 0  10px 40px;
+  border: solid 10px #D93644;
+  box-shadow: 0 20px 20px rgba(0,0,0,.8);
+}
+
+.img-left{
+  float:left;
+  margin: 10px 20px 10px 20px;
+  border: solid 10px #D93644;
+  box-shadow: 0 20px 20px rgba(0,0,0,.8);
+}
 /*-----Responsive Images--------*/
 
 img{
@@ -132,6 +146,77 @@ body{
     text-decoration: none;
   }
 
+  #practice h2{
+    color:#031D74;
+    border-bottom: 4px double #031D74;
+  }
+
+  #practice a{
+    color:#29A5F2;
+      }
+
+  #practice a:hover{
+    text-decoration:none;
+  }
+
+  #practice h3{
+    border-left: 20px solid #031D74;
+    padding: 5px;
+    }
+
+   
+
+  table{
+    width:100%;
+    border:5px solid #D93644;
+    margin: 30px 0;
+    border-collapse: collapse;
+  }
+  table caption{
+    font-weight: bold;
+    color: #031F73;
+    margin:10px;
+  }
+  table tr:nth-child(even){
+    background-color: #29A5F2;
+  }
+
+  table tr:nth-child(odd){
+    background-color: #D93644;
+  }
+  table th{
+    background-color: #29A5F2;
+    padding: 5px;
+  
+  }
+  table td{
+    border: 2px solid #0D40A6;
+    padding:10px;
+  }
+  
+  td:nth-child(n+2){
+    text-align:right;
+  }
+
+  ol{
+    list-style-type: lower-roman;
+    color:#D93644
+  }
+
+  li{
+
+  }
+
+  ul li > ul {
+    list-style-type: square;
+    color:#0D40A6
+  }
+
+   
+
+  
+   
+  
   aside[role="complementary"]{
     background-color:#031D74;
     color:#D93644;
@@ -160,7 +245,7 @@ body{
 
   #colophon{
     background-color: #29A5F2;
-    color::#031D74;    
+    color:#031D74;    
   }
 
   #colophon h6{
@@ -168,6 +253,10 @@ body{
     margin:0;
     text-align: center;
   }
+
+
+
+
 
   
   
