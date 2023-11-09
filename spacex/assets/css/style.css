@@ -59,8 +59,8 @@ body {
 
 header {
   background-image: url(/spacex/assets/img/bd3db3a7c6a9871c6406b333777c7c1c.webp);
-  background-size: cover; /* This ensures the image covers the entire background */
-  background-position: center; /* This centers the image */
+  background-size: cover; 
+  background-position: center; 
  
 }
 
@@ -96,7 +96,7 @@ header.primary {
     /* Shorhand Three Value Top, Left/Right, Bottom*/
     margin: 20px auto 40px;
     position: relative;
-    color: #0511F2;
+    color: #038C7F;
   }
 
   header.primary nav ul {
@@ -130,3 +130,4 @@ header.primary nav a:hover,
 header.primary nav a:active {
   background-color: rgba(51, 83, 107, 0.8);
 }
+
