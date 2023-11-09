@@ -57,7 +57,7 @@ body {
     font-family: 'Teko', sans-serif;
 }
 
-header {
+header.primary {
   background-image: url(/spacex/assets/img/bd3db3a7c6a9871c6406b333777c7c1c.webp);
   background-size: cover; 
   background-position: center; 
