@@ -215,9 +215,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox=
     color:#D93644
   }
 
-  li{
-
-  }
+  
 
   ul li > ul {
     list-style-type: square;
