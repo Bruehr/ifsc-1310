@@ -142,9 +142,7 @@ header.primary nav a:active {
   background-color: rgba(51, 83, 107, 0.8);
 }
 
-footer{
-  text-align: center;
-}
+
 
 table{
   width:100%;
@@ -189,6 +187,15 @@ ol{
 ul li > ul {
   list-style-type: square;
   color:#0D40A6
+}
+
+h3{
+  color:#03588C;
+}
+
+footer{
+  text-align: center;
+  background-color: #038C7F;
 }
 
 @media screen and (max-width: 600px) {
