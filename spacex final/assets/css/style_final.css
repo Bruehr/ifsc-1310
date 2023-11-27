@@ -54,8 +54,7 @@ img {
   /* ----- Global Styles ---- */
 
 body {
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Young Serif', serif;
+  font-family: 'Roboto'
 }
 
 header.primary {
@@ -142,11 +141,18 @@ header.primary nav a:active {
   background-color: rgba(51, 83, 107, 0.8);
 }
 
+body{
+  background-color: rgba(0,0,0,.3)
+  
+  }
+
+
 
 
 table{
   width:100%;
-  border:5px solid #038C7F;
+  border:5px solid #03588C;
+  border-width: 5px;
   margin: 30px 0;
   border-collapse: collapse;
 }
@@ -189,13 +195,25 @@ ul li > ul {
   color:#0D40A6
 }
 
+h2{
+  color:#03588C
+}
 h3{
   color:#03588C;
+  border-bottom: solid;
 }
+
 
 footer{
   text-align: center;
   background-color: #038C7F;
+  border-style:solid;
+  border-color: #03588C;
+  border-width: 5px;
+  padding: 10px;
+  padding-top: 10px;
+
+
 }
 
 @media screen and (max-width: 600px) {
