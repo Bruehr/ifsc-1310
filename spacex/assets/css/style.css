@@ -144,54 +144,10 @@ header.primary nav a:active {
   background-color: rgba(51, 83, 107, 0.8);
 }
 
-table{
-  width:100%;
-  border:5px solid #038C7F;
-  margin: 30px 0;
-  border-collapse: collapse;
-}
-table caption{
-  font-weight: bold;
-  color: #031F73;
-  margin:10px;
-}
-table tr:nth-child(even){
-  background-color: #03A8A3;
-  
-}
-
-table tr:nth-child(odd){
-  background-color: #A4A5A6;
-}
-table th{
-  background-color: #038C7F;
-  padding: 5px;
-
-}
-table td{
-  border: 2px solid #038C7F;
-  padding:10px;
-}
-
-td:nth-child(n+2){
-  text-align:right;
-}
-
-ol{
-  list-style-type: lower-roman;
-  color:#D93644
-}
-
-h3{
-  color:#038C7F;
-  
-}
 
 
-ul li > ul {
-  list-style-type: square;
-  color:#0D40A6
-}
+
+
 
 @media screen and (max-width: 600px) {
   header.primary nav ul {
